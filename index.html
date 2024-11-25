@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games Showcase</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Первый экран -->
+    <section class="screen first-screen">
+        <div class="text-content">
+            <h1 id="main-title">Loading...</h1>
+            <p id="main-description">Please wait while we load the game.</p>
+        </div>
+        <div class="image-content">
+            <img id="main-image" src="" alt="Gaming illustration">
+        </div>
+    </section>
+
+    <!-- Второй экран -->
+    <section class="screen second-screen">
+        <iframe id="game-frame" src="" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <!-- Третий экран -->
+    <section class="screen third-screen">
+        <h2>Подборка игр</h2>
+        <div class="game-list" id="game-list">
+            <!-- Игры добавляются динамически -->
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

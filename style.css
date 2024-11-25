@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f9;
+    line-height: 1.6;
+}
+
+.screen {
+    padding: 20px;
+    text-align: center;
+}
+
+.first-screen {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background: linear-gradient(to right, #4caf50, #8bc34a);
+    color: #fff;
+}
+
+.first-screen .text-content {
+    max-width: 50%;
+    text-align: left;
+}
+
+.first-screen img {
+    max-width: 40%;
+    border-radius: 10px;
+}
+
+.second-screen iframe {
+    width: 80%;
+    height: 500px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.third-screen {
+    background: #fff;
+    padding: 50px 20px;
+}
+
+.third-screen .game-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.third-screen .game-item {
+    max-width: 300px;
+    background: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.third-screen .game-item:hover {
+    transform: scale(1.05);
+}
+
+.third-screen img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#game-frame[src=""] {
+    display: none;
+}
